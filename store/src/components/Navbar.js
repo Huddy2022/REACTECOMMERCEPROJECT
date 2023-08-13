@@ -24,7 +24,7 @@ function NavbarComponent() {
                 window.location.assign(response.url); // Forwarding user to Stripe
             }
         });
-    }
+    };
 
     const productsCount = cart.items.reduce((sum, product) => sum + product.quantity, 0);
 
